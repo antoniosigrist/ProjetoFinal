@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Thu May 14 16:32:32 2015
 
-@author: Antonio, Gabriel ,Guima ,Monstro, Ian
+@author: Antonio, Gabriel ,Guima ,Monstro, Ian?
 """
 import time
 from random import randint
@@ -397,16 +397,17 @@ class Aldeia(object):
 
         
 
-North = Aldeia("North","x","y",2000,200,200,140,105,10,12)  
-Riverlands = Aldeia("Riverlands","x","y",3000,200,180,200,120,20,0)
-Vale = Aldeia("Vale","x","y",9000,600,450,530,170,45,0)
-Iron_Islands = Aldeia("Iron_Islands","x","y",3000,500,500,500,180,55,0)
-Westerlands = Aldeia("Westerlands","x","y",5800,200,500,600,210,70,0)
-Crownlands = Aldeia("Crownlands","x","y",240000,400,1200,1300,570,400,3)
-Stormlands = Aldeia("Stormlands","x","y",15000,2000,600,630,200,110,0)
-The_Reach = Aldeia("The_Reach","x","y",50000,200,650,650,210,190,0)
-Dorne = Aldeia("Dorne","x","y",150000,200,800,720,250,250,0)
-
+ 
+North = Aldeia("North","x","y",2000,200,330,440000,1400,530,40)
+Riverlands = Aldeia("Riverlands","x","y",30000,200,1000,0,0,0,0)
+Vale = Aldeia("Vale","x","y",9000,600,200,1000,300,2000,10)
+Iron_Islands = Aldeia("Iron_Islands","x","y",3000,400,200,200,10,250,0)
+Westerlands = Aldeia("Westerlands","x","y",380000,200,200,0,0,0,0)
+Crownlands = Aldeia("Crownlands","x","y",90000,1500,200,0,0,0,0)
+Stormlands = Aldeia("Stormlands","x","y",150000,2000,200,0,0,0,0)
+The_Reach = Aldeia("The_Reach","x","y",1000000,200,3000,0,0,0,0)
+Dorne = Aldeia("Dorne","x","y",1000000,200,3000,0,0,0,0)
+nada = Aldeia("","x","y",1000000,200,3000,0,0,0,0)
 
 vilas_aliadas_objetos = [North]
 vilas_inimigas_objetos = [Iron_Islands,Vale,Riverlands,Crownlands,Stormlands,\
